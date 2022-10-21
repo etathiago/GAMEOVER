@@ -29,7 +29,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background:  #3c066ed7;
 }
 #menu {
     display: flex;
@@ -424,8 +424,12 @@ a:hover {
     width: 100%;
 
 }
-.txt2[type="submit"] {
-    background: #242424 none repeat scroll 0 0;
+.formbutton[type="submit"] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #723cafdc;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #723cafdc;
+    box-shadow: inset 0px 1px 0px 0px #723cafdc;
+    background-color:  #3c066ed7;
+    display: inline-block;
     border: 1px solid #4f5c04;
     border-radius: 25px;
     color: #fff;
@@ -438,8 +442,26 @@ a:hover {
     width: 30%;
 
 }
+.formbutton:hover {
+    background-color: #6e5ac994;
+}
+.formbutton:active {
+    position: relative;
+    top: 1px;
+}
+
 .txt2:hover {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0 ;
     color: #5793ef;
     transition: all 0.5s ease 0s;
 }
+/*Fim CSS contato */
+
+/*Início mapa CSS */
+.map {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+/*Fim mapa CSS */
